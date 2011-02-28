@@ -7,10 +7,30 @@
 //
 
 #import "Gallery_AppDelegate.h"
+#import "MyMainWindow.h"
+#import "MyBrowserView.h"
+#import "MyAlbum.h"
+#import "MyPhoto.h"
 
 @implementation Gallery_AppDelegate
 
+@synthesize mainWindow;
+@synthesize mainWindowController;
+@synthesize selectedAlbum;
+
 @synthesize window;
+@synthesize managedObjectModel;
+@synthesize persistentStoreCoordinator;
+@synthesize managedObjectContext;
+
+- (IBAction) newAlbum: (id)sender {
+	[MyAlbum albumInDefaultContext];
+}
+
+// don't hang around after the windows have all been closed
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed: (NSApplication*)sender {
+	return YES;
+}
 
 // -----------------------------------------------------------------------------------------------
 //										Generated CoreData Methods
@@ -216,6 +236,14 @@
 //									End Generated CoreData Methods
 // -----------------------------------------------------------------------------------------------
 
-
+// show our main window when application launches
+- (void) applicationDidFinishLaunching:(NSNotification*)note {
+    
+    MyMainWindow *windowController = [[MyMainWindow alloc] initWithWindowNibName:@"MyMainWindow"];
+    [windowController showWindow:nil];
+    
+    self.mainWindowController = windowController;
+    [windowController release]; // retain property, so release to drop count to 1
+}
 
 @end

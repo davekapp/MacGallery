@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		2F7446990DB6B7EA00F9684A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F7446970DB6B7EA00F9684A /* MainMenu.xib */; };
+		4E3C25FB131B0EE7002A1BD3 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E3C25FA131B0EE7002A1BD3 /* Quartz.framework */; };
+		4E3C2601131B0F6B002A1BD3 /* MyMainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3C2600131B0F6B002A1BD3 /* MyMainWindow.m */; };
+		4E3C260B131B159A002A1BD3 /* MyMainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E3C260A131B159A002A1BD3 /* MyMainWindow.xib */; };
+		4E3C2618131B1748002A1BD3 /* MyBrowserView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3C2617131B1748002A1BD3 /* MyBrowserView.m */; };
+		4E3C261C131B4DC9002A1BD3 /* MyBrowserView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E3C261B131B4DC9002A1BD3 /* MyBrowserView.xib */; };
+		4E3C261F131B4F17002A1BD3 /* MyEditorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3C261E131B4F17002A1BD3 /* MyEditorView.m */; };
+		4E3C2621131B5070002A1BD3 /* MyEditorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E3C2620131B5070002A1BD3 /* MyEditorView.xib */; };
+		4E3C2624131B50B4002A1BD3 /* MyListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3C2623131B50B4002A1BD3 /* MyListView.m */; };
+		4E3C2626131B5285002A1BD3 /* MyListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E3C2625131B5285002A1BD3 /* MyListView.xib */; };
 		770B37ED0679A11B001EADE2 /* Gallery_DataModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 770B37EC0679A11B001EADE2 /* Gallery_DataModel.xcdatamodel */; };
 		77C8280E06725ACE000B614F /* Gallery_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8280C06725ACE000B614F /* Gallery_AppDelegate.m */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
@@ -23,6 +32,19 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		2F7446980DB6B7EA00F9684A /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Gallery_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gallery_Prefix.pch; sourceTree = "<group>"; };
+		4E3C25FA131B0EE7002A1BD3 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		4E3C25FF131B0F6B002A1BD3 /* MyMainWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMainWindow.h; sourceTree = "<group>"; };
+		4E3C2600131B0F6B002A1BD3 /* MyMainWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMainWindow.m; sourceTree = "<group>"; };
+		4E3C260A131B159A002A1BD3 /* MyMainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyMainWindow.xib; sourceTree = "<group>"; };
+		4E3C2616131B1748002A1BD3 /* MyBrowserView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBrowserView.h; sourceTree = "<group>"; };
+		4E3C2617131B1748002A1BD3 /* MyBrowserView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyBrowserView.m; sourceTree = "<group>"; };
+		4E3C261B131B4DC9002A1BD3 /* MyBrowserView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyBrowserView.xib; sourceTree = "<group>"; };
+		4E3C261D131B4F17002A1BD3 /* MyEditorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyEditorView.h; sourceTree = "<group>"; };
+		4E3C261E131B4F17002A1BD3 /* MyEditorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyEditorView.m; sourceTree = "<group>"; };
+		4E3C2620131B5070002A1BD3 /* MyEditorView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyEditorView.xib; sourceTree = "<group>"; };
+		4E3C2622131B50B4002A1BD3 /* MyListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyListView.h; sourceTree = "<group>"; };
+		4E3C2623131B50B4002A1BD3 /* MyListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyListView.m; sourceTree = "<group>"; };
+		4E3C2625131B5285002A1BD3 /* MyListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyListView.xib; sourceTree = "<group>"; };
 		770B37EC0679A11B001EADE2 /* Gallery_DataModel.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = Gallery_DataModel.xcdatamodel; sourceTree = "<group>"; };
 		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		77C8280B06725ACE000B614F /* Gallery_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gallery_AppDelegate.h; sourceTree = "<group>"; };
@@ -37,6 +59,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				4E3C25FB131B0EE7002A1BD3 /* Quartz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,8 +69,11 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				4E3C2615131B172E002A1BD3 /* ViewControllers */,
 				77C8280B06725ACE000B614F /* Gallery_AppDelegate.h */,
 				77C8280C06725ACE000B614F /* Gallery_AppDelegate.m */,
+				4E3C25FF131B0F6B002A1BD3 /* MyMainWindow.h */,
+				4E3C2600131B0F6B002A1BD3 /* MyMainWindow.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -106,6 +132,10 @@
 				8D1107310486CEB800E47090 /* Gallery-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				2F7446970DB6B7EA00F9684A /* MainMenu.xib */,
+				4E3C260A131B159A002A1BD3 /* MyMainWindow.xib */,
+				4E3C261B131B4DC9002A1BD3 /* MyBrowserView.xib */,
+				4E3C2620131B5070002A1BD3 /* MyEditorView.xib */,
+				4E3C2625131B5285002A1BD3 /* MyListView.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -115,8 +145,22 @@
 			children = (
 				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+				4E3C25FA131B0EE7002A1BD3 /* Quartz.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E3C2615131B172E002A1BD3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4E3C2616131B1748002A1BD3 /* MyBrowserView.h */,
+				4E3C2617131B1748002A1BD3 /* MyBrowserView.m */,
+				4E3C261D131B4F17002A1BD3 /* MyEditorView.h */,
+				4E3C261E131B4F17002A1BD3 /* MyEditorView.m */,
+				4E3C2622131B50B4002A1BD3 /* MyListView.h */,
+				4E3C2623131B50B4002A1BD3 /* MyListView.m */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 		7756732906782D8800D1FEB8 /* Models */ = {
@@ -179,6 +223,10 @@
 			files = (
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				2F7446990DB6B7EA00F9684A /* MainMenu.xib in Resources */,
+				4E3C260B131B159A002A1BD3 /* MyMainWindow.xib in Resources */,
+				4E3C261C131B4DC9002A1BD3 /* MyBrowserView.xib in Resources */,
+				4E3C2621131B5070002A1BD3 /* MyEditorView.xib in Resources */,
+				4E3C2626131B5285002A1BD3 /* MyListView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +240,10 @@
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				77C8280E06725ACE000B614F /* Gallery_AppDelegate.m in Sources */,
 				770B37ED0679A11B001EADE2 /* Gallery_DataModel.xcdatamodel in Sources */,
+				4E3C2601131B0F6B002A1BD3 /* MyMainWindow.m in Sources */,
+				4E3C2618131B1748002A1BD3 /* MyBrowserView.m in Sources */,
+				4E3C261F131B4F17002A1BD3 /* MyEditorView.m in Sources */,
+				4E3C2624131B50B4002A1BD3 /* MyListView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
