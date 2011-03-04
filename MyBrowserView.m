@@ -110,7 +110,7 @@
         } // end for
         
         NSRange dropRange = NSMakeRange(newDropIndex, draggingItems.count);
-        NSIndexSet dropIndexes = [NSIndexSet indexSetWithIndexesInRange:dropRange];
+        NSIndexSet *dropIndexes = [NSIndexSet indexSetWithIndexesInRange:dropRange];
         
         [reorderedItems insertObjects:draggingItems atIndexes:dropIndexes];
         [self updateSortOrderForObjects:reorderedItems];
@@ -189,13 +189,13 @@
 
 - (void) updateSortOrderForObjects:(NSArray *)items {
     
-    NSMutableArray *arrangeItems = [NSMutableArray array];
+    NSMutableArray *arrangedItems = [NSMutableArray array];
     NSInteger orderIndex = 0;
     
     for( MyPhoto *photo in items ) {
         // don't handle an item more than once
         if ( [arrangedItems containsObject:photo] ) continue;
-        photo.orderIndex = [NSNumber numberWithInteger:orderIndex];
+        photo.orderIndex = [NSNumber numberWithInt:orderIndex];
         [arrangedItems addObject:photo];
         orderIndex++;
     }

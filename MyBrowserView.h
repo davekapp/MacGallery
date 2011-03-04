@@ -9,6 +9,8 @@
 #import <Cocoa/Cocoa.h>
 #import <Quartz/Quartz.h>
 
+@class MyMainWindow;
+
 @interface MyBrowserView : NSViewController <NSTableViewDelegate>
 
 // parent window property

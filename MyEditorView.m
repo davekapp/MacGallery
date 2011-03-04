@@ -20,15 +20,15 @@
     [self.imageView setImageWithURL:nil];
 }
 
-- (void) editPhoto:(MyPhoto *)photo {
+- (void) editPhoto:(MyPhoto*)photo {
     if (self.view == nil) {
         [self loadView];
     }
     
     NSURL *url = [NSURL fileURLWithPath:photo.filePath];
     
-    [self imageView setImageWithURL:url];
-    [self mainWindowController activateViewController:self];
+    [self.imageView setImageWithURL:url];
+    [self.mainWindowController activateViewController:self];
 }
 
 - (void) dealloc {

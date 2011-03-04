@@ -17,6 +17,8 @@
 		4E3C2621131B5070002A1BD3 /* MyEditorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E3C2620131B5070002A1BD3 /* MyEditorView.xib */; };
 		4E3C2624131B50B4002A1BD3 /* MyListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3C2623131B50B4002A1BD3 /* MyListView.m */; };
 		4E3C2626131B5285002A1BD3 /* MyListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E3C2625131B5285002A1BD3 /* MyListView.xib */; };
+		4E3C262A131B55A8002A1BD3 /* MyPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3C2629131B55A8002A1BD3 /* MyPhoto.m */; };
+		4E3C262D131B55B4002A1BD3 /* MyAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3C262C131B55B4002A1BD3 /* MyAlbum.m */; };
 		770B37ED0679A11B001EADE2 /* Gallery_DataModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 770B37EC0679A11B001EADE2 /* Gallery_DataModel.xcdatamodel */; };
 		77C8280E06725ACE000B614F /* Gallery_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8280C06725ACE000B614F /* Gallery_AppDelegate.m */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
@@ -45,6 +47,10 @@
 		4E3C2622131B50B4002A1BD3 /* MyListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyListView.h; sourceTree = "<group>"; };
 		4E3C2623131B50B4002A1BD3 /* MyListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyListView.m; sourceTree = "<group>"; };
 		4E3C2625131B5285002A1BD3 /* MyListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyListView.xib; sourceTree = "<group>"; };
+		4E3C2628131B55A8002A1BD3 /* MyPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPhoto.h; sourceTree = "<group>"; };
+		4E3C2629131B55A8002A1BD3 /* MyPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPhoto.m; sourceTree = "<group>"; };
+		4E3C262B131B55B4002A1BD3 /* MyAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAlbum.h; sourceTree = "<group>"; };
+		4E3C262C131B55B4002A1BD3 /* MyAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAlbum.m; sourceTree = "<group>"; };
 		770B37EC0679A11B001EADE2 /* Gallery_DataModel.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = Gallery_DataModel.xcdatamodel; sourceTree = "<group>"; };
 		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		77C8280B06725ACE000B614F /* Gallery_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gallery_AppDelegate.h; sourceTree = "<group>"; };
@@ -69,6 +75,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				4E3C2627131B5596002A1BD3 /* ManagedObjects */,
 				4E3C2615131B172E002A1BD3 /* ViewControllers */,
 				77C8280B06725ACE000B614F /* Gallery_AppDelegate.h */,
 				77C8280C06725ACE000B614F /* Gallery_AppDelegate.m */,
@@ -163,6 +170,17 @@
 			name = ViewControllers;
 			sourceTree = "<group>";
 		};
+		4E3C2627131B5596002A1BD3 /* ManagedObjects */ = {
+			isa = PBXGroup;
+			children = (
+				4E3C2628131B55A8002A1BD3 /* MyPhoto.h */,
+				4E3C2629131B55A8002A1BD3 /* MyPhoto.m */,
+				4E3C262B131B55B4002A1BD3 /* MyAlbum.h */,
+				4E3C262C131B55B4002A1BD3 /* MyAlbum.m */,
+			);
+			name = ManagedObjects;
+			sourceTree = "<group>";
+		};
 		7756732906782D8800D1FEB8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -244,6 +262,8 @@
 				4E3C2618131B1748002A1BD3 /* MyBrowserView.m in Sources */,
 				4E3C261F131B4F17002A1BD3 /* MyEditorView.m in Sources */,
 				4E3C2624131B50B4002A1BD3 /* MyListView.m in Sources */,
+				4E3C262A131B55A8002A1BD3 /* MyPhoto.m in Sources */,
+				4E3C262D131B55B4002A1BD3 /* MyAlbum.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

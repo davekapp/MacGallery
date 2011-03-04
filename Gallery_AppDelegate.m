@@ -14,7 +14,6 @@
 
 @implementation Gallery_AppDelegate
 
-@synthesize mainWindow;
 @synthesize mainWindowController;
 @synthesize selectedAlbum;
 
