@@ -85,7 +85,7 @@
     NSArray *photos      = self.imagesArrayController.arrangedObjects;
     
     // indexes to place photoos
-    NSMutableSet *indexSet = [NSMutableSet indexSet];
+    NSMutableIndexSet *indexSet = [NSMutableIndexSet indexSet];
     [indexSet addIndex:dropIndex];
     
     // the move might be within the view

@@ -42,6 +42,7 @@ static NSString* const MyListViewName    = @"MyListView";
 	[names insertObject:MyBrowserViewName atIndex:BrowserViewIndex];
 	[names insertObject:MyEditorViewName  atIndex:EditorViewIndex];
 	[names insertObject:MyListViewName    atIndex:ListViewIndex];
+    self.controllerNamesByIndex = names;
 	
 	// start in browser mode
 	NSViewController *initial = [self viewControllerForName:MyBrowserViewName];
